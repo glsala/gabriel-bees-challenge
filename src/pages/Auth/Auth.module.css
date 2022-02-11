@@ -1,0 +1,81 @@
+.wrapper {
+  overflow: hidden;
+  min-height: 100vh;
+  background-color: #f2ec54;
+}
+
+.title {
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logoWrapper {
+  position: relative;
+  width: 0;
+  height: 0;
+  background-color: red;
+}
+
+.logoImg {
+  position: absolute;
+  bottom: 5px;
+  width: 278px;
+  height: 278px;
+}
+
+.button {
+  border-radius: 10%;
+  background-color: #52525b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.inputWrapper {
+  width: 300px;
+  margin-bottom: 12px;
+}
+
+.checkboxWrapper {
+  align-items: baseline;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin-top: 20px;
+  color: #ffffff;
+  background: #5d5fef;
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: none;
+}
+
+.button:disabled {
+  background: #52525b;
+  cursor: default;
+}
+/* Handles Logo for 720px and down */
+@media only screen and (max-width: 720px) {
+  .logoImg {
+    position: absolute;
+    bottom: 2px;
+    width: 220px;
+    height: 220px;
+  }
+}

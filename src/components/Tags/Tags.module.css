@@ -1,0 +1,39 @@
+.tags {
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.tags li {
+  float: left;
+}
+
+.tag {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  background: #f2ec54;
+  border-radius: 10px;
+  height: 26px;
+  line-height: 26px;
+  position: relative;
+  width: 130\5px;
+  height: 32px;
+  border-radius: 99px;
+  padding: 0 10px;
+  margin: 12px;
+}
+
+.tagText {
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+  margin-left: 10px;
+}
+
+.tagIcon {
+  width: 16px;
+  height: 16px;
+}

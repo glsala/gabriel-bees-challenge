@@ -1,0 +1,39 @@
+.container {
+  background-color: #fff;
+  display: inline;
+  place-items: center;
+}
+
+.row {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+  padding: 0.5rem;
+  border: 1px solid;
+  border-radius: 2%;
+  background-color: #fff;
+}
+
+.delete {
+  float: right;
+}
+
+.title {
+  padding: 0.25rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content {
+  padding: 1rem 0.5rem;
+  font-size: 16px;
+}
+
+.cardFooter {
+  padding: 0.25rem;
+}
